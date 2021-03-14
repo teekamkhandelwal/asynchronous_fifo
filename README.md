@@ -50,3 +50,10 @@ Checking rdata: expected wdata = f6, rdata = f6
 Checking rdata: expected wdata = d9, rdata = d9
 Checking rdata: expected wdata = a9, rdata = a9
 $finish called from file "testbench.sv", line 74.
+
+
+
+simulation waveform-
+
+
+![image](https://user-images.githubusercontent.com/72481400/111078289-b0fdd080-851a-11eb-954f-7070e6de9af6.png)
