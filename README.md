@@ -58,6 +58,14 @@ Synchroniser using two flip flop
 
 ![image](https://user-images.githubusercontent.com/72481400/111077754-49468600-8518-11eb-9bfd-87d57d6dcd14.png)
 
+# Asynchronous FIFO Pointers
+
+
+# Synchronizers & Binary Gray Counter
+
+
+# Full & Empty Logic Block
+
 
 
 # OUTPUTS------
