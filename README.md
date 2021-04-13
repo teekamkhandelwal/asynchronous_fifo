@@ -17,15 +17,17 @@ Synchronizers & Binary Gray Counter
 Full & Empty Logic Block
 
 
+# Introduction
 FIFO-Every memory in which the data word that is written in first also comes out first when the memory is read is a first-in first-out memory.
 
 An asynchronous FIFO refers to a FIFO design where data values are written sequentially into a FIFO buffer using one clock domain, and the data values are sequentially read from the same FIFO buffer using another clock domain, where the two clock domains are asynchronous to each other. 
 
-	One common technique for designing an asynchronous FIFO is to use Gray code pointers that are synchronized into the opposite clock domain before generating synchronous FIFO full or empty status signals.
+One common technique for designing an asynchronous FIFO is to use Gray code pointers that are synchronized into the opposite clock domain before generating synchronous FIFO full or empty status signals.
+
   
 
 
-![image](https://user-images.githubusercontent.com/72481400/114535138-5c5e8a00-9c6d-11eb-962c-34301acfd619.png)
+
 
 
 
