@@ -16,6 +16,10 @@ Synchronizers & Binary Gray Counter
 
 Full & Empty Logic Block
 
+outputs
+
+simulation
+
 
 # Introduction
 FIFO-Every memory in which the data word that is written in first also comes out first when the memory is read is a first-in first-out memory.
@@ -31,11 +35,15 @@ One common technique for designing an asynchronous FIFO is to use Gray code poin
 
 ![image](https://user-images.githubusercontent.com/72481400/114535379-9c257180-9c6d-11eb-972d-fcfaf2aca1eb.png)
 
+# Architecture
+
+![image](https://user-images.githubusercontent.com/72481400/114535533-caa34c80-9c6d-11eb-8619-e6a7f10f8114.png)
+
 
 ![image](https://user-images.githubusercontent.com/72481400/111077783-6c713580-8518-11eb-83e7-8f8824ece83f.png)
 
 
-synchroniser using two flip flop
+Synchroniser using two flip flop
 
 
 ![image](https://user-images.githubusercontent.com/72481400/111077754-49468600-8518-11eb-9bfd-87d57d6dcd14.png)
