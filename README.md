@@ -43,6 +43,16 @@ One common technique for designing an asynchronous FIFO is to use Gray code poin
 ![image](https://user-images.githubusercontent.com/72481400/111077783-6c713580-8518-11eb-83e7-8f8824ece83f.png)
 
 
+Write Pointer:
+
+The write pointer always points to the next word to be written; therefore, on reset, both pointers are set to zero, which also happens to be the next FIFO word location to be written
+
+Read Pointer:
+
+The read pointer always points to the current FIFO word to be read. The fact that the read pointer is always pointing to the next FIFO word to be read means that the receiver logic does not have to use two clock periods to read the data word.
+
+
+
 Synchroniser using two flip flop
 
 
@@ -50,7 +60,7 @@ Synchroniser using two flip flop
 
 
 
-OUTPUTS------
+# OUTPUTS------
 
 
 ![image](https://user-images.githubusercontent.com/72481400/114534445-a004c400-9c6c-11eb-931b-7b12e328d692.png)
@@ -58,7 +68,7 @@ OUTPUTS------
 
 
 
-simulation waveform-
+# simulation waveform-
 
 
 ![image](https://user-images.githubusercontent.com/72481400/111078289-b0fdd080-851a-11eb-954f-7070e6de9af6.png)
